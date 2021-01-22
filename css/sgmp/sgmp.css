@@ -243,6 +243,11 @@
   margin-top: 1vw;
 }
 
+.sgmp_ui1_1_1__release_card___list____item_____botao:hover {
+  cursor: pointer;
+  background-color: #005500;
+}
+
 #d1, #d2 {
   text-decoration: none;
 }
