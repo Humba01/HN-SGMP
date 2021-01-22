@@ -4,6 +4,25 @@
   margin-top: 2vw;
 }
 
+.sgmp_img_slogan_conteiner {
+  background-color: #dddddd; 
+  width: 100vw;
+  margin-bottom: 0.6vw;
+}
+
+.sgmp_img_slogan {
+  width: 70px;
+  height: 100px;
+  text-align: center;
+  align-content: center;
+  border: #454545 4px solid;
+  border-radius: 6px;
+  margin-top: -1vw;
+  margin-bottom: 0.5vw;
+  background-color: #666666;
+  box-shadow: 2px 2px 1px #000000;
+}
+
 .sgmp_text_slogan {
   display: inline-block;
   font-size: 54px;

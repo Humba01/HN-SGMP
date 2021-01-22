@@ -17,16 +17,12 @@ let botaoRetorno2 = document.getElementById("btn_return2");
 let botaoRetorno3 = document.getElementById("btn_return3");
 let botaoRetorno4 = document.getElementById("btn_return4");
 
-//Estilos Bagunçados
-let sloganCont = document.getElementById("sgmp_margin_return");
-
 function mostraPaginaNumeroUm() {
   paginaUm.style.display = "inline-block";
   paginaDois.style.display = "none";
   paginaTres.style.display = "none";
   paginaQuatro.style.display = "none";
   paginaCinco.style.display = "none";
-  sloganCont.style.marginLeft = "2vw";
 }
 
 function mostraPaginaNumeroDois() {

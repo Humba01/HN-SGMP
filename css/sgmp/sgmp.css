@@ -67,6 +67,11 @@
   border: #000000 1.5px solid;
 }
 
+.sgmp_ui0__card___imagem:hover,
+.sgmp_ui1__card___imagem:hover {
+  border: #338800 2.5px double;
+}
+
 #forge_img {
   padding-top: 1.6vw;
   padding-bottom: 1.6vw;
@@ -106,6 +111,10 @@
   margin-left: 0.6vw;
   margin-bottom: 2vw;
   width: 40vw;
+}
+
+.sgmp_ui1_1__enable___list____item:hover {
+  border: #338800 2.5px double;
 }
 
 .sgmp_ui1_1__enable___list____item_____titulo {
