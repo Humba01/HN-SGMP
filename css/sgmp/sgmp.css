@@ -70,6 +70,7 @@
 .sgmp_ui0__card___imagem:hover,
 .sgmp_ui1__card___imagem:hover {
   border: #338800 2.5px double;
+  cursor: pointer;
 }
 
 #forge_img {
@@ -115,6 +116,7 @@
 
 .sgmp_ui1_1__enable___list____item:hover {
   border: #338800 2.5px double;
+  cursor: pointer;
 }
 
 .sgmp_ui1_1__enable___list____item_____titulo {
