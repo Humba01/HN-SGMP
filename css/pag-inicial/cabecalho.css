@@ -4,6 +4,7 @@
     width: 100vw;
     border-bottom-color: #444444;
     border-bottom-width: 0.2vw;
+    text-decoration: none;
     border-bottom-style: solid;
     position: -webkit-sticky;
     position: sticky;

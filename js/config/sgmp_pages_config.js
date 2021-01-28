@@ -1,21 +1,22 @@
+
 //Páginas
-let paginaUm = document.getElementById("sgmp_pag1");
-let paginaDois = document.getElementById("sgmp_pag2");
-let paginaTres = document.getElementById("sgmp_pag3");
-let paginaQuatro = document.getElementById("sgmp_pag4");
-let paginaCinco = document.getElementById("sgmp_pag5");
+const paginaUm = document.getElementById("sgmp_pag1");
+const paginaDois = document.getElementById("sgmp_pag2");
+const paginaTres = document.getElementById("sgmp_pag3");
+const paginaQuatro = document.getElementById("sgmp_pag4");
+const paginaCinco = document.getElementById("sgmp_pag5");
 
 //Elementos Clicáveis
-let cardUmUiZero = document.getElementById("card1__ui0");
-let cardUmUiUm = document.getElementById("card1__ui1");
-let cardDoisUiUm = document.getElementById("card2__ui1");
-let cardUmUiUmUnderlineUm = document.getElementById("card1__ui1_1");
+const cardUmUiZero = document.getElementById("card1__ui0");
+const cardUmUiUm = document.getElementById("card1__ui1");
+const cardDoisUiUm = document.getElementById("card2__ui1");
+const cardUmUiUmUnderlineUm = document.getElementById("card1__ui1_1");
 
 //Botões de Retorno
-let botaoRetorno1 = document.getElementById("btn_return1");
-let botaoRetorno2 = document.getElementById("btn_return2");
-let botaoRetorno3 = document.getElementById("btn_return3");
-let botaoRetorno4 = document.getElementById("btn_return4");
+const botaoRetorno1 = document.getElementById("btn_return1");
+const botaoRetorno2 = document.getElementById("btn_return2");
+const botaoRetorno3 = document.getElementById("btn_return3");
+const botaoRetorno4 = document.getElementById("btn_return4");
 
 function mostraPaginaNumeroUm() {
   paginaUm.style.display = "inline-block";
@@ -23,7 +24,7 @@ function mostraPaginaNumeroUm() {
   paginaTres.style.display = "none";
   paginaQuatro.style.display = "none";
   paginaCinco.style.display = "none";
-}
+};
 
 function mostraPaginaNumeroDois() {
   paginaUm.style.display = "none";
@@ -31,7 +32,7 @@ function mostraPaginaNumeroDois() {
   paginaTres.style.display = "none";
   paginaQuatro.style.display = "none";
   paginaCinco.style.display = "none";
-}
+};
 
 function mostraPaginaNumeroTres() {
   paginaUm.style.display = "none";
@@ -39,7 +40,7 @@ function mostraPaginaNumeroTres() {
   paginaTres.style.display = "inline-block";
   paginaQuatro.style.display = "none";
   paginaCinco.style.display = "none";
-}
+};
 
 function mostraPaginaNumeroQuatro() {
   paginaUm.style.display = "none";
@@ -47,7 +48,7 @@ function mostraPaginaNumeroQuatro() {
   paginaTres.style.display = "none";
   paginaQuatro.style.display = "inline-block";
   paginaCinco.style.display = "none";
-}
+};
 
 function mostraPaginaNumeroCinco() {
   paginaUm.style.display = "none";
@@ -55,36 +56,36 @@ function mostraPaginaNumeroCinco() {
   paginaTres.style.display = "none";
   paginaQuatro.style.display = "none";
   paginaCinco.style.display = "inline-block";
-}
+};
 
-let visao1 = cardUmUiZero.addEventListener("click", () => {
+const visao1 = cardUmUiZero.addEventListener("click", function() {
   mostraPaginaNumeroDois();
 });
 
-let visao2 = cardUmUiUm.addEventListener("click", () => {
+const visao2 = cardUmUiUm.addEventListener("click", function() {
   mostraPaginaNumeroTres();
 });
 
-let visao3 = cardUmUiUmUnderlineUm.addEventListener("click", () => {
+const visao3 = cardUmUiUmUnderlineUm.addEventListener("click", function() {
   mostraPaginaNumeroQuatro();
 });
 
-let visao4 = cardDoisUiUm.addEventListener("click", () => {
+const visao4 = cardDoisUiUm.addEventListener("click", function() {
   mostraPaginaNumeroCinco();
 });
 
-let visaoRetorno1 = botaoRetorno1.addEventListener("click", () => {
+const visaoRetorno1 = botaoRetorno1.addEventListener("click", function() {
   mostraPaginaNumeroUm();
 });
 
-let visaoRetorno2 = botaoRetorno2.addEventListener("click", () => {
+const visaoRetorno2 = botaoRetorno2.addEventListener("click", function() {
   mostraPaginaNumeroDois();
 });
 
-let visaoRetorno3 = botaoRetorno3.addEventListener("click", () => {
+const visaoRetorno3 = botaoRetorno3.addEventListener("click", function() {
   mostraPaginaNumeroTres();
 });
 
-let visaoRetorno4 = botaoRetorno4.addEventListener("click", () => {
+const visaoRetorno4 = botaoRetorno4.addEventListener("click", function() {
   mostraPaginaNumeroDois();
 });
